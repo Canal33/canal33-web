@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporativo y Prensa | Canal 33</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: { extend: { colors: { turquesa: '#00ced1', negroPro: '#050505', grisOscuro: '#0f0f0f' } } }
+        }
+    </script>
+</head>
+<body class="bg-negroPro text-white">
+
+    <header class="border-b border-gray-800 bg-negroPro/90 backdrop-blur-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-3">
+                <img src="img_logos/CANAL 33.png" alt="Canal 33" class="h-20 w-auto">
+            </a>
+            <nav class="hidden space-x-8 text-sm font-bold tracking-widest uppercase lg:flex">
+                <a href="noticias.html" class="hover:text-turquesa transition">Noticias</a>
+                <a href="espectaculos.html" class="hover:text-turquesa transition">Espectáculos</a>
+                <a href="deportes.html" class="hover:text-turquesa transition">Deportes</a>
+                <a href="programacion.html" class="hover:text-turquesa transition">Programación</a>          
+                <a href="prensa.html" class="text-turquesa border-turquesa border-b-2 pb-1">Nosotros</a>
+            </nav>
+            
+            <a href="vivo.html" class="bg-turquesa text-negroPro flex animate-pulse items-center gap-2 rounded-full px-5 py-2 text-xs font-black hover:bg-white transition-colors">
+                <span class="h-2 w-2 rounded-full bg-red-600"></span> EN VIVO
+            </a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-16">
+        
+        <section class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-24">
+    
+    <div class="lg:col-span-5 space-y-8">
+        <div>
+            <h2 class="text-turquesa font-black text-xs uppercase tracking-[0.4em] mb-4 italic">● Perfil Corporativo</h2>
+            <h1 class="text-6xl md:text-8xl font-black uppercase tracking-tighter leading-[0.85] italic mb-8">
+                Nuestra <br><span class="text-turquesa">Identidad</span>
+            </h1>
+            <p class="text-lg text-gray-300 leading-relaxed font-light italic">
+                <span class="text-white font-black">Canal 33</span> es más que una señal de televisión; somos el referente informativo y deportivo de la región. Nuestra misión es conectar a la comunidad con la verdad, utilizando tecnología de última generación para garantizar calidad <span class="text-white font-bold">Ultra HD</span> en cada hogar.
+            </p>
+        </div>
+        <p class="text-gray-500 text-[10px] leading-relaxed uppercase font-black tracking-[0.2em] max-w-md">
+            Operamos las 24 horas del día, los 7 días de la semana, con una parrilla de programación que equilibra la noticia inmediata con el entretenimiento de alto impacto.
+        </p>
+    </div>
+
+    <div class="lg:col-span-7 bg-white/5 border border-gray-800 rounded-[3rem] p-8 md:p-12 shadow-2xl">
+        <div class="flex items-center gap-4 mb-10">
+            <h3 class="text-white font-black uppercase text-xl tracking-tighter italic">Mapa de Sintonía</h3>
+            <div class="h-[1px] flex-1 bg-gray-800"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            
+            <div class="bg-black/40 border border-gray-800 p-6 rounded-3xl text-center group hover:border-turquesa transition-all">
+                <i class="fas fa-broadcast-tower text-turquesa text-3xl mb-4"></i>
+                <h4 class="text-[10px] font-black uppercase text-gray-500 tracking-widest mb-1">Televisión Abierta</h4>
+                <p class="text-3xl font-black italic">33.1 <span class="text-turquesa text-sm block not-italic font-black">HD DIGITAL</span></p>
+                <p class="text-[9px] text-gray-600 font-bold uppercase mt-2">Tijuana • Tecate • Rosarito • San Diego • Sur de Los Angeles</p>
+            </div>
+
+            <div class="bg-black/40 border border-gray-800 p-6 rounded-3xl text-center group hover:border-white transition-all">
+                <i class="fas fa-flag-usa text-blue-500 text-3xl mb-4"></i>
+                <h4 class="text-[10px] font-black uppercase text-gray-500 tracking-widest mb-1">Estados Unidos</h4>
+                <p class="text-2xl font-black italic uppercase">COX Communications</p>
+                <p class="text-turquesa font-black text-xl">CH. 00</p>
+                <p class="text-[9px] text-gray-600 font-bold uppercase mt-2">San Diego • Southern California</p>
+            </div>
+
+            <div class="md:col-span-2 bg-black/40 border border-gray-800 p-8 rounded-3xl group hover:border-turquesa transition-all">
+                <div class="flex items-center gap-4 mb-6">
+                    <i class="fas fa-tv text-white text-2xl"></i>
+                    <h4 class="text-[10px] font-black uppercase text-gray-500 tracking-widest ">Sistemas de Cable México</h4>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                    <div>
+                        <p class="text-xs font-black text-gray-400 uppercase">IZZI</p>
+                        <p class="text-xl font-black italic text-turquesa">CH. 33 / CH. 733</p>
+                    </div>
+                    <div>
+                        <p class="text-xs font-black text-gray-400 uppercase">TOTALPLAY</p>
+                        <p class="text-xl font-black italic text-turquesa">CH. 00</p>
+                    </div>
+                    <div>
+                        <p class="text-xs font-black text-gray-400 uppercase">MEGACABLE</p>
+                        <p class="text-xl font-black italic text-turquesa">CH. 133</p>
+                    </div>
+                    <div>
+                        <p class="text-xs font-black text-gray-400 uppercase">SKY</p>
+                        <p class="text-xl font-black italic text-turquesa">CH. 00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="md:col-span-2 bg-turquesa p-8 rounded-3xl flex flex-col md:flex-row justify-between items-center group transition-all">
+                <div class="text-center md:text-left mb-4 md:mb-0">
+                    <h4 class="text-[10px] font-black uppercase text-black/50 tracking-widest mb-1">Mundo Digital</h4>
+                    <p class="text-2xl font-black italic uppercase text-black">Streaming En Vivo 24/7</p>
+                    <p class="text-black font-bold">www.canal33.tv</p>
+                </div>
+                <div class="flex gap-6 text-black text-2xl">
+                    <i class="fab fa-facebook hover:scale-110 transition-transform cursor-pointer"></i>
+                    <i class="fab fa-youtube hover:scale-110 transition-transform cursor-pointer"></i>
+                    <i class="fab fa-roku hover:scale-110 transition-transform cursor-pointer"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+        <section class="mb-24">
+            <div class="flex items-center gap-4 mb-10">
+                <h3 class="text-white font-black uppercase text-xl tracking-tighter italic">Brand Center</h3>
+                <div class="h-[1px] flex-1 bg-gray-800"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="group bg-grisOscuro border border-gray-800 p-10 rounded-[2.5rem] hover:border-turquesa transition-all duration-500 relative overflow-hidden">
+                    <div class="relative z-10">
+                        <div class="w-14 h-14 bg-turquesa/10 rounded-2xl flex items-center justify-center text-turquesa text-2xl group-hover:bg-turquesa group-hover:text-black transition mb-6">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <h4 class="text-2xl font-black uppercase mb-2">Media Kit 2026</h4>
+                        <p class="text-gray-500 text-sm mb-8 leading-relaxed italic">Estadísticas de audiencia, tarifas comerciales y formatos publicitarios actualizados.</p>
+                        <a href="#" class="inline-flex items-center gap-4 bg-white/5 border border-white/10 px-8 py-4 rounded-xl text-[10px] font-black uppercase tracking-widest hover:bg-turquesa hover:text-black transition-all">Descargar PDF</a>
+                    </div>
+                    <i class="fas fa-chart-line absolute -bottom-10 -right-10 text-[12rem] text-white/5 group-hover:text-turquesa/5 transition-colors"></i>
+                </div>
+
+                <div class="group bg-grisOscuro border border-gray-800 p-10 rounded-[2.5rem] hover:border-turquesa transition-all duration-500 relative overflow-hidden">
+                    <div class="relative z-10">
+                        <div class="w-14 h-14 bg-turquesa/10 rounded-2xl flex items-center justify-center text-turquesa text-2xl group-hover:bg-turquesa group-hover:text-black transition mb-6">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <h4 class="text-2xl font-black uppercase mb-2">Activos Visuales</h4>
+                        <p class="text-gray-500 text-sm mb-8 leading-relaxed italic">Logotipos oficiales en formatos vectoriales y alta resolución para prensa.</p>
+                        <a href="#" class="inline-flex items-center gap-4 bg-white/5 border border-white/10 px-8 py-4 rounded-xl text-[10px] font-black uppercase tracking-widest hover:bg-turquesa hover:text-black transition-all">Obtener Assets</a>
+                    </div>
+                    <i class="fas fa-palette absolute -bottom-10 -right-10 text-[12rem] text-white/5 group-hover:text-turquesa/5 transition-colors"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <h3 class="text-turquesa font-black uppercase text-xs tracking-widest mb-4 italic">Conectemos</h3>
+                <h2 class="text-4xl md:text-6xl font-black uppercase tracking-tighter italic">Vías de <span class="text-white">Comunicación</span></h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <a href="https://wa.me/TUNUMERO" class="flex flex-col items-center p-10 bg-grisOscuro border border-gray-800 rounded-[3rem] hover:border-[#25D366] group transition-all">
+                    <div class="w-16 h-16 bg-[#25D366]/10 rounded-full flex items-center justify-center text-[#25D366] text-3xl mb-6 group-hover:bg-[#25D366] group-hover:text-white transition">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <span class="text-xl font-black uppercase mb-1">WhatsApp</span>
+                    <span class="text-[10px] text-gray-500 font-bold uppercase tracking-widest">Denuncias y Notas</span>
+                </a>
+
+                <a href="mailto:contacto@canal33.tv" class="flex flex-col items-center p-10 bg-grisOscuro border border-gray-800 rounded-[3rem] hover:border-turquesa group transition-all">
+                    <div class="w-16 h-16 bg-turquesa/10 rounded-full flex items-center justify-center text-turquesa text-3xl mb-6 group-hover:bg-turquesa group-hover:text-black transition">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <span class="text-xl font-black uppercase mb-1">E-mail</span>
+                    <span class="text-[10px] text-gray-500 font-bold uppercase tracking-widest">Ventas y Prensa</span>
+                </a>
+
+                <div class="flex flex-col items-center p-10 bg-grisOscuro border border-gray-800 rounded-[3rem] hover:border-white group transition-all">
+                    <div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center text-white text-3xl mb-6 group-hover:bg-white group-hover:text-black transition">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <span class="text-xl font-black uppercase mb-1">Estudios</span>
+                    <span class="text-[10px] text-gray-500 font-bold uppercase tracking-widest text-center">Tijuana, B.C. México</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-gray-900 py-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-[10px] font-black text-gray-600 uppercase tracking-[0.4em]">© 2026 CANAL 33 - LÍDERES EN COMUNICACIÓN DIGITAL</p>
+        </div>
+    </footer>
+
+</body>
+</html>
