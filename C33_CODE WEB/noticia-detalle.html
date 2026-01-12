@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias | Canal 33</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        turquesa: '#00ced1',
+                        grisOscuro: '#0f0f0f',
+                        negroPro: '#050505',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-negroPro text-white">
+    <header class="border-b border-gray-800 bg-negroPro/90 backdrop-blur-md sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+        
+        <a href="index.html" class="flex items-center gap-3 group">
+            <img src="img_logos/CANAL 33.png" alt="Canal 33" class="h-20 w-auto">
+        </a>
+
+        <nav class="hidden space-x-8 text-sm font-bold tracking-widest uppercase lg:flex">
+          <a href="f:\CANAL 33\PAGINA WEB CANAL 33\C33_CODE WEB\noticias.html" class="text-turquesa border-turquesa border-b-2 pb-1">Noticias</a>
+          <a href="f:\CANAL 33\PAGINA WEB CANAL 33\C33_CODE WEB\espectaculos.html" class="hover:text-turquesa transition">Espectáculos</a>
+          <a href="f:\CANAL 33\PAGINA WEB CANAL 33\C33_CODE WEB\deportes.html" class="hover:text-turquesa transition">Deportes</a>
+          <a href="f:\CANAL 33\PAGINA WEB CANAL 33\C33_CODE WEB\programacion.html" class="hover:text-turquesa transition">Programación</a>          
+          <a href="f:\CANAL 33\PAGINA WEB CANAL 33\C33_CODE WEB\prensa.html" class="hover:text-turquesa transition">Nosotros</a>
+        </nav>
+
+        <a href="vivo.html" class="bg-turquesa text-negroPro flex animate-pulse items-center gap-2 rounded-full px-5 py-2 text-xs font-black hover:bg-white transition-colors">
+                <span class="h-2 w-2 rounded-full bg-red-600"></span> EN VIVO
+            </a>
+            
+      </div>
+    </header>
+
+
+    <main class="container mx-auto px-4 py-12 max-w-4xl">
+        <article id="post-container">
+            <div class="animate-pulse space-y-8">
+                <div class="h-4 bg-gray-800 w-1/4 rounded"></div>
+                <div class="h-12 bg-gray-800 w-full rounded"></div>
+                <div class="h-[400px] bg-gray-800 w-full rounded-3xl"></div>
+            </div>
+        </article>
+
+        <hr class="border-gray-800 my-16">
+
+        <section>
+            <h3 class="text-xs font-black uppercase tracking-[0.3em] text-turquesa mb-8">Continúa Leyendo</h3>
+            <div id="relacionados-grid" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                </div>
+        </section>
+    </main>
+
+     <footer class="border-t border-gray-800 bg-[#050505] pt-16 pb-8">
+      <div class="container mx-auto px-4">
+        <div class="mb-12 grid grid-cols-1 gap-12 md:grid-cols-4">
+          <div class="space-y-6">
+            <img src="img_logos/LOGO CANAL 33.png" alt="Canal 33.2" class="h-25 w-auto" />
+            <p class="text-sm leading-relaxed text-gray-500">Transmitiendo la verdad con tecnología de vanguardia. Líderes en noticias, deportes y entretenimiento 24/7.</p>
+            <div class="flex gap-4 text-gray-400">
+              <a href="https://www.facebook.com/Canal33mx?locale=es_LA" class="hover:text-turquesa text-xl transition"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/canal33mx/" class="hover:text-turquesa text-xl transition"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.tiktok.com/@canal33tijuana" class="hover:text-turquesa text-xl transition"><i class="fab fa-tiktok"></i></a>
+              <a href="https://www.youtube.com/@Canal33Noticias" class="hover:text-turquesa text-xl transition"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <div>
+            <h4 class="mb-6 text-xs font-bold tracking-widest text-white uppercase">Contenido</h4>
+            <ul class="space-y-4 text-sm font-medium text-gray-500">
+              <li><a href="#" class="hover:text-turquesa transition">Últimas Noticias</a></li>
+              <li><a href="#" class="hover:text-turquesa transition">Streaming en Vivo</a></li>
+              <li><a href="#" class="hover:text-turquesa transition">Programación</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="mb-6 text-xs font-bold tracking-widest text-white uppercase">Corporativo</h4>
+            <ul class="space-y-4 text-sm font-medium text-gray-500">
+              <li><a href="#" class="hover:text-turquesa transition">Publicidad y Ventas</a></li>
+              <li><a href="#" class="hover:text-turquesa transition">Media Kit 2025</a></li>
+              <li><a href="#" class="hover:text-turquesa transition">Términos de Servicio</a></li>
+              <li><a href="#" class="hover:text-turquesa transition">Trabaja con Nosotros</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="mb-6 text-xs font-bold tracking-widest text-white uppercase">Alertas por Correo</h4>
+            <p class="mb-4 text-xs text-gray-500">Recibe las noticias más importantes al instante.</p>
+            <form class="flex flex-col gap-2">
+              <input type="email" placeholder="tu@correo.com" class="focus:border-turquesa rounded-lg border border-gray-800 bg-gray-900 px-4 py-2 text-sm text-white focus:outline-none" />
+              <button class="bg-turquesa text-negroPro rounded-lg py-2 text-xs font-bold tracking-widest uppercase transition hover:bg-white">Suscribirse</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center justify-between gap-4 border-t border-gray-900 pt-8 text-[10px] font-bold tracking-[0.2em] text-gray-600 uppercase md:flex-row">
+          <p>© 2025 CANAL TV DIGITAL - TODOS LOS DERECHOS RESERVADOS</p>
+          <div class="flex gap-6">
+            <a href="#" class="hover:text-white">Privacidad</a>
+            <a href="#" class="hover:text-white">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script>
+        const WP_URL = 'https://public-api.wordpress.com/wp/v2/sites/canal338.wordpress.com/posts';
+
+        // 1. Obtener el ID de la URL (?id=XXXX)
+        const params = new URLSearchParams(window.location.search);
+        const postId = params.get('id');
+
+        async function cargarDetalle() {
+            if (!postId) {
+                window.location.href = 'noticias.html';
+                return;
+            }
+
+            try {
+                const res = await fetch(`${WP_URL}/${postId}?_embed`);
+                const post = await res.json();
+                
+                // Actualizar título de la pestaña
+                document.title = `${post.title.rendered} | Canal 33`;
+
+                const img = post._embedded?.['wp:featuredmedia']?.[0]?.source_url || 'https://via.placeholder.com/1200x600';
+                const fecha = new Date(post.date).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+
+                // Renderizar contenido
+                document.getElementById('post-container').innerHTML = `
+                    <header class="mb-10 text-center md:text-left">
+                        <span class="text-turquesa font-black text-[10px] uppercase tracking-widest">Noticia Publicada</span>
+                        <h1 class="text-4xl md:text-6xl font-black uppercase tracking-tighter italic mt-2 mb-6 leading-none">
+                            ${post.title.rendered}
+                        </h1>
+                        <div class="flex items-center justify-center md:justify-start gap-4 text-gray-500 text-xs font-bold uppercase">
+                            <span><i class="far fa-calendar-alt mr-2"></i>${fecha}</span>
+                            <span class="text-gray-800">|</span>
+                            <span><i class="far fa-clock mr-2"></i>Lectura: 3 min</span>
+                        </div>
+                    </header>
+
+                    <img src="${img}" class="w-full h-[300px] md:h-[500px] object-cover rounded-[2rem] shadow-2xl mb-12 border border-gray-800">
+
+                    <div class="wp-content">
+                        ${post.content.rendered}
+                    </div>
+
+                    <div class="mt-16 flex gap-4 border-y border-gray-800 py-8">
+                        <span class="text-xs font-bold text-gray-500 uppercase self-center">Compartir:</span>
+                        <button onclick="window.open('https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title.rendered)}&url=${window.location.href}')" class="w-10 h-10 rounded-full bg-grisOscuro flex items-center justify-center hover:text-turquesa transition"><i class="fab fa-twitter"></i></button>
+                        <button onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=${window.location.href}')" class="w-10 h-10 rounded-full bg-grisOscuro flex items-center justify-center hover:text-turquesa transition"><i class="fab fa-facebook-f"></i></button>
+                    </div>
+                `;
+
+                cargarRelacionados(post.categories[0]);
+
+            } catch (e) {
+                console.error(e);
+                document.getElementById('post-container').innerHTML = `<p class="text-center py-20 text-red-500">Error al cargar la noticia. Por favor, intenta de nuevo.</p>`;
+            }
+        }
+
+        async function cargarRelacionados(catId) {
+            try {
+                const res = await fetch(`${WP_URL}?_embed&categories=${catId}&per_page=3&exclude=${postId}`);
+                const posts = await res.json();
+                const grid = document.getElementById('relacionados-grid');
+                grid.innerHTML = '';
+
+                posts.forEach(p => {
+                    const img = p._embedded?.['wp:featuredmedia']?.[0]?.source_url || 'https://via.placeholder.com/400';
+                    grid.innerHTML += `
+                        <article class="group cursor-pointer" onclick="location.href='noticia-detalle.html?id=${p.id}'">
+                            <div class="aspect-video overflow-hidden rounded-2xl mb-4 border border-gray-800">
+                                <img src="${img}" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                            </div>
+                            <h4 class="text-sm font-bold uppercase group-hover:text-turquesa transition">${p.title.rendered}</h4>
+                        </article>`;
+                });
+            } catch (e) {}
+        }
+
+        // Barra de progreso
+        window.onscroll = function() {
+            let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            let scrolled = (winScroll / height) * 100;
+            document.getElementById("read-progress").style.width = scrolled + "%";
+        };
+
+        cargarDetalle();
+    </script>
+</body>
+</html>
